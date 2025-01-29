@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pydantic
+mysqlclient  # Cliente MySQL para conectar con la base de datos
+SQLAlchemy  # Opcional, si decides usar ORM
+python-dotenv  # Para gestionar variables de entorno
+httpx  # Cliente HTTP que soporta async/await
+passlib  # Para gestionar contraseñas
+aiohttp
+requests  # Cliente HTTP (sin necesidad de async)
+pyjwt==2.8.0
+cryptography
